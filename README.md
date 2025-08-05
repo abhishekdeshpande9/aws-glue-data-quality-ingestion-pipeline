@@ -16,8 +16,7 @@ Tech Stack
 - AWS EventBridge: Triggers SNS after job completion
 
 
-Architecture
-Pipeline Flow:
+Architecture & Pipeline Flow:
 - New CSV or Parquet files are dropped into an S3 bucket.
 - AWS Glue Job with bookmarking picks up only the new files.
 - Glue Data Quality Ruleset runs validation checks.
