@@ -1,8 +1,6 @@
 # aws-glue-data-quality-ingestion-pipeline
 Automated data ingestion and quality pipeline using AWS Glue, Redshift, S3, and EventBridge.
 
-Automated Quality Data Ingestion Pipeline with AWS Glue & Redshift
-
 Overview
 This project solves a common data engineering problem:
 How do you ingest only new data, validate it before storing, and stay informed  without manually checking logs?
